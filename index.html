@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список фильмов</title>
+  <link rel="icon" href="./sources/images/movie-favicon.png" type="image/png">
+  <link rel="stylesheet" href="./styles/reset.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="container-header">
+        <div class="badges">
+          <span class="badge">Cписок фильмов</span><span class="badge">2023</span>
+        </div>
+        <h1>Посмотреть</h1>
+      </div>
+    </div>
+    
+  </header>
+<main>
+  <div class="container-movie-list">
+    <div class="content-wrapper">
+      <div class="movie-input__wrapper">
+        <input id="addMovieInput" class="add-movie__input" type="text" placeholder="Добавить фильм">
+        <button id="addMovieButton" class="add-movie__button"></button>
+      </div>
+      <ul id="moviesList" class="movies__list"></ul>
+    </div>
+  </div>
+</main>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
